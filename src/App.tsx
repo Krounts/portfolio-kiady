@@ -1,9 +1,9 @@
 import { motion } from 'framer-motion';
-import { FaDownload, FaEnvelope, FaGithub, FaLinkedin, FaArrowUp, FaCode, FaDatabase, FaTools } from 'react-icons/fa';
+import { FaDownload, FaEnvelope, FaGithub, FaArrowUp, FaCode, FaDatabase, FaTools } from 'react-icons/fa';
 
 const skills = {
   frontend: ['React', 'TypeScript', 'JavaScript', 'HTML5', 'CSS3', 'Bootstrap'],
-  backend: ['Node.js', 'Express', 'PHP'],
+  backend: ['Node.js', 'Java', 'PHP'],
   database: ['MySQL', 'MariaDB', 'SQLite'],
   tools: ['Git', 'GitHub', 'VS Code', 'XAMPP', 'Postman', 'Docker'],
 };
@@ -28,7 +28,7 @@ const projects = [
   {
     title: 'E-commerce responsive',
     description: 'Site de vente en ligne avec panier, filtres et animations fluide.',
-    technologies: ['TypeScript', 'Express', 'Bootstrap'],
+    technologies: ['TypeScript', 'Java', 'Bootstrap'],
   },
 ];
 
@@ -252,10 +252,6 @@ function App() {
                   <p className="flex items-center gap-3">
                     <FaGithub className="text-cyan-300" />
                     https://github.com/Krounts
-                  </p>
-                  <p className="flex items-center gap-3">
-                    <FaLinkedin className="text-cyan-300" />
-                    linkedin.com/in/ratsiva
                   </p>
                   <p className="flex items-center gap-3">
                     <FaArrowUp className="text-cyan-300" />
