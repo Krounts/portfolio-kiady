@@ -247,11 +247,11 @@ function App() {
                 <div className="mt-8 space-y-4 text-slate-300">
                   <p className="flex items-center gap-3">
                     <FaEnvelope className="text-cyan-300" />
-                    email@example.com
+                    rohintsoakiady@yahoo.com
                   </p>
                   <p className="flex items-center gap-3">
                     <FaGithub className="text-cyan-300" />
-                    github.com/ratsiva
+                    https://github.com/Krounts
                   </p>
                   <p className="flex items-center gap-3">
                     <FaLinkedin className="text-cyan-300" />
@@ -259,7 +259,7 @@ function App() {
                   </p>
                   <p className="flex items-center gap-3">
                     <FaArrowUp className="text-cyan-300" />
-                    +261 34 12 345 67
+                    +261 38 64 833 10
                   </p>
                 </div>
               </div>

@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.1.0",
   "type": "module",
-  "homepage": "https://Krounts.github.io/<REPO_NAME>",
+  "homepage": "https://Krounts.github.io/portfolio-kiady",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -22,6 +22,7 @@
     "@types/react-dom": "^18.2.18",
     "@vitejs/plugin-react": "^6.0.5",
     "autoprefixer": "^10.4.19",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.4.37",
     "tailwindcss": "^3.4.4",
     "typescript": "^5.5.4",
