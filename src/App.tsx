@@ -209,7 +209,7 @@ function App() {
         <section id="projets" className="mx-auto max-w-6xl space-y-10 px-6 pb-20">
           <div className="rounded-[2rem] border border-white/10 bg-white/5 p-8 shadow-glass backdrop-blur-xl">
             <p className="text-sm uppercase tracking-[0.4em] text-cyan-300">Projets</p>
-            <h2 className="mt-4 text-3xl font-semibold text-white">Mes réalisations</h2>
+            <h2 className="mt-4 text-3xl font-semibold text-white">Mes réalisations académiques</h2>
             <p className="mt-3 text-slate-300">Chaque projet présente une idée, une description et les technologies utilisées.</p>
 
             <div className="mt-8 grid gap-6 md:grid-cols-2">
