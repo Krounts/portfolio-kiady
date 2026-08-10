@@ -21,14 +21,9 @@ const experiences = [
 
 const projects = [
   {
-    title: 'Dashboard RH',
-    description: 'Interface moderne pour suivre les salaires, les employés et les paiements.',
-    technologies: ['React', 'Node.js', 'MySQL'],
-  },
-  {
-    title: 'E-commerce responsive',
-    description: 'Site de vente en ligne avec panier, filtres et animations fluide.',
-    technologies: ['TypeScript', 'Java', 'Bootstrap'],
+    title: 'Cloud S5',
+    description: 'Application académique de signalement et de gestion des travaux routiers prototype pour Antananarivo.',
+    technologies: ['PHP 8.2', 'PostgreSQL 15', 'React', 'Tailwind', 'Leaflet', 'Ionic', 'Docker Compose'],
   },
 ];
 
@@ -68,7 +63,7 @@ function App() {
                 <div>
                   <p className="text-sm uppercase tracking-[0.4em] text-cyan-300">Étudiant en Informatique</p>
                   <h1 className="mt-4 text-4xl font-semibold text-white md:text-5xl">Ratsiva Rohintsoa Kiady</h1>
-                  <p className="mt-3 text-lg text-slate-300">Développeur Full Stack</p>
+                  <p className="mt-3 text-lg text-slate-300">Développeur Full Stack | Projet académique Cloud S5</p>
                 </div>
               </div>
 
