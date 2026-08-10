@@ -215,7 +215,7 @@ function App() {
                   className="rounded-[2rem] border border-white/10 bg-slate-900/70 p-6 shadow-glass transition-transform duration-300"
                 >
                   <div className="h-48 overflow-hidden rounded-3xl bg-slate-800">
-                    <img src="/cloud-s5-screenshot.png" alt="Cloud S5 - Gestion des travaux routiers" className="h-full w-full object-cover" />
+                    <img src={import.meta.env.BASE_URL + 'cloud-s5-screenshot.png'} alt="Cloud S5 - Gestion des travaux routiers" className="h-full w-full object-cover" />
                   </div>
                   <h3 className="mt-6 text-2xl font-semibold text-white">{project.title}</h3>
                   <p className="mt-3 text-slate-300">{project.description}</p>
